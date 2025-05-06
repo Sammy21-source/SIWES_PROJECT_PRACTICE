@@ -1,0 +1,97 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color:hsl(276, 100%, 81%) ;
+  margin-bottom: 15px;
+  height: 80px;
+}
+.mg{
+  width:100%;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+}
+.img{
+  width:40px ;
+  margin-left: 5px;
+}
+.divk{
+  display: none;
+}
+.template1,.template2,.template3,.template4,.template5{
+  width: 13rem;
+  border-style: solid;
+  border-width:1.5px;
+  border-radius: 5px;
+  
+}
+.template1 p,.template2 p,.template3 p,.template4 p,.template5 p{
+  width: 10rem;
+  margin: 5px 0px 5px 0px;
+}
+.template3,.template4{
+  justify-content:end;
+}
+.mgd{
+  width: 100%;
+  border-radius: 10px;
+}
+.phone{
+  width: 22rem;
+  margin: 0;
+  background-color:  hsl(270, 20%, 96%);
+}
+.dog_images{
+  display: grid;
+  grid-template-columns: 60px 60px 60px;
+  column-gap: 10px;
+  margin: 3px 0px 4px 0px;
+}
+.template1 p,.template2 p,.template5 p{
+  color:  hsl(276, 55%, 52%);
+}
+.together{
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.together p{
+  color: hsl(271, 15%, 43%);
+}
+.buty button{
+  background-color: hsl(289, 100%, 72%);
+  width: 13rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+.input_butt{
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  margin: 10px 10px 10px 10px;
+}
+.input_butt input{
+  width: 100%;
+  height: 2rem;
+  border: none;
+}
+.go{
+  background-color: white;
+  border-radius: 1rem;
+  border-style: none;
+  background-color: hsl(271, 36%, 24%);
+}
+.fullname{
+  font-size: 25px;
+  margin: 0px 0px;
+}
+.status{
+  margin: 0px 0px;
+  font-size: small;
+}
+.name{
+  margin-left: 10px;
+  color: white;
+}

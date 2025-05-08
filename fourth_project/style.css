@@ -1,0 +1,57 @@
+.mg{
+  width: 100%;
+}
+button{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: -7px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  height:1.5rem;
+  border-radius: 14px;
+  background-color: white;
+  border-width:1px;
+  width: 7rem;
+  max-width: 7rem;
+}
+.mgbox{
+  position: relative;
+}
+.add{
+  width: 100%;
+  padding-top: 3px;
+}
+.iconbox{
+  width: 15px;
+
+}
+.txt{
+  margin-top: 1rem;
+}
+.txt p{
+  margin: 0px;
+}
+.name{
+  font-size: 15px;
+}
+.desc{
+  font-size: 15px;
+  font-weight: bold;
+}
+.price{
+  font-weight: 700;
+  color:hsl(14, 86%, 42%);
+}
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-right: 20rem;
+}
+.template{
+  min-width: 133px;
+}

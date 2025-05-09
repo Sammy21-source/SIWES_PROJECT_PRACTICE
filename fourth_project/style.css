@@ -52,11 +52,34 @@ button{
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 15px;
   column-gap: 15px;
-  margin-right: 20rem;
+  margin-right: 5rem;
 }
 .template{
   min-width: 133px;
 }
 h1{
   color: hsl(14, 65%, 9%);
+}
+.carting{
+  width: 30rem;
+  height: 15rem;
+  background-color: aqua;
+  min-width: 15rem;
+}
+.total{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.page_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
